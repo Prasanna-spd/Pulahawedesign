@@ -1,0 +1,58 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+
+
+
+body{
+    background-image: url('https://www.vssut.ac.in/doc/VSSUT-building1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+h1,h2{
+    text-decoration: solid;
+    font-size: 18;
+    font-family: 'Poppins', sans-serif;
+
+
+}
+nav{
+    margin-inline: 15px;
+
+}
+a
+{
+    padding-right:34px ;
+}
+img {
+    height: 206px;
+}
+h3 {
+    padding-left: 54px;
+}
+.sidename{
+    padding-right: 125px;
+}
+.admin {
+    display: flex;
+    justify-content: center;
+    gap: 181px;
+}
+h1.adminboard {
+    margin-left: 660px;
+}
+.representatives1
+{
+display: flex;
+margin: auto;
+gap: 109px;
+justify-content: center;
+}
+.representatives2{
+    display: flex;
+    margin: auto;
+gap: 109px;
+justify-content: center;
+margin-top: 99px
+}
