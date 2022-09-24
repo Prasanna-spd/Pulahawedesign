@@ -35,7 +35,7 @@ h3 {
     padding-left: 54px;
 }
 .sidename{
-    padding-right: 125px;
+    padding: 125px;
 }
 .admin {
     display: flex;
@@ -48,7 +48,7 @@ h3 {
     gap: 181px;
 }
 h1.adminboard {
-    margin-left: 660px;
+    text-align: center;
 }
 .representatives1
 {
@@ -101,6 +101,21 @@ nav {
         flex-direction: column;
     }
     .representatives2{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .adminboard{
+        text-align: center;
+    }
+    .admin-full{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .representatives{
         display: flex;
         align-items: center;
         justify-content: center;
