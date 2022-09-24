@@ -3,11 +3,16 @@
 
 
 
-
+*{
+    box-sizing: border-box;
+}
 body{
     background-image: url('https://www.vssut.ac.in/doc/VSSUT-building1.jpg');
     background-repeat: no-repeat;
     background-size: cover;
+    margin: 0;
+    border: 0;
+    padding:0 ;
     
 }
 h1,h2{
@@ -17,13 +22,11 @@ h1,h2{
 
 
 }
-nav{
-    margin-inline: 15px;
 
-}
 a
 {
     padding-right:34px ;
+    color: white;
 }
 img {
     height: 206px;
@@ -35,6 +38,11 @@ h3 {
     padding-right: 125px;
 }
 .admin {
+    display: flex;
+    justify-content: center;
+    gap: 181px;
+}
+.admin2{
     display: flex;
     justify-content: center;
     gap: 181px;
@@ -55,4 +63,47 @@ justify-content: center;
 gap: 109px;
 justify-content: center;
 margin-top: 99px
+}
+/* Navbar  */
+.nav-link{
+    color: #fff;
+}
+.navbar-brand{
+    color: #fff;
+}
+nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+   
+
+}
+@media only screen and (max-width: 850px) {
+    h1,h2{
+       text-align: center;
+    }
+    .admin{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .admin2{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .representatives1{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .representatives2{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
 }
