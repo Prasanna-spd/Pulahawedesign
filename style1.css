@@ -9,12 +9,14 @@
 body{
     background-image: url('https://www.vssut.ac.in/doc/VSSUT-building1.jpg');
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 100%;
+    background-attachment: fixed;
     margin: 0;
     border: 0;
     padding:0 ;
     
 }
+
 h1,h2{
     text-decoration: solid;
     font-size: 18;
@@ -122,3 +124,30 @@ nav {
         flex-direction: column;
     }
 }
+img {
+    height: 80px;
+}
+.profile.photo {
+    height: 200px;
+}
+.card-img-top {
+    height: 93px;
+    width: 100px;
+}
+
+/* ----------------------------------- */
+.blink {
+    animation: blink 1s steps(1, end) infinite;
+  }
+  
+  @keyframes blink {
+    0% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }

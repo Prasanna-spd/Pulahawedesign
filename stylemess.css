@@ -1,0 +1,152 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+
+
+*{
+    box-sizing: border-box;
+}
+body{
+    background-image: url('https://www.vssut.ac.in/doc/VSSUT-building1.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+    margin: 0;
+    border: 0;
+    padding:0 ;
+    
+}
+
+h1,h2{
+    text-decoration: solid;
+    font-size: 18;
+    font-family: 'Poppins', sans-serif;
+
+
+}
+
+a
+{
+    padding-right:34px ;
+    color: white;
+}
+img {
+    height: 206px;
+}
+h3 {
+    padding-left: 54px;
+}
+.sidename{
+    padding: 125px;
+}
+.admin {
+    display: flex;
+    justify-content: center;
+    gap: 181px;
+}
+.admin2{
+    display: flex;
+    justify-content: center;
+    gap: 181px;
+}
+h1.adminboard {
+    text-align: center;
+}
+.representatives1
+{
+display: flex;
+margin: auto;
+gap: 109px;
+justify-content: center;
+}
+.representatives2{
+    display: flex;
+    margin: auto;
+gap: 109px;
+justify-content: center;
+margin-top: 99px
+}
+/* Navbar  */
+.nav-link{
+    color: #fff;
+}
+.navbar-brand{
+    color: #fff;
+}
+nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+   
+
+}
+@media only screen and (max-width: 850px) {
+    h1,h2{
+       text-align: center;
+    }
+    .admin{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .admin2{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .representatives1{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .representatives2{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .adminboard{
+        text-align: center;
+    }
+    .admin-full{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .representatives{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+}
+img {
+    height: 80px;
+}
+.profile.photo {
+    height: 200px;
+}
+.card-img-top {
+    height: 93px;
+    width: 100px;
+}
+.head
+{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 100px;
+    
+    margin:auto;
+    padding-left:37%;
+}
+.messimage
+{
+    margin:auto;
+    display:flex;
+    justify-content:centre;
+    height:655px;
+}
